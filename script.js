@@ -150,7 +150,7 @@ function updateCart() {
         totalQuantity += item.quantity;
         const li = document.createElement("li");
         li.innerHTML = `
-            ${item.name} - $${item.price.toFixed(2)} x 
+            ${item.name} - ₹${item.price.toFixed(2)} x 
             <button onclick="changeQuantity(${index}, -1)">➖</button> 
             ${item.quantity} 
             <button onclick="changeQuantity(${index}, 1)">➕</button>
