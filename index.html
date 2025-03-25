@@ -9,7 +9,10 @@
 <body>
     <header>
         <h1>Tula's Cafeteria Menu (T1)</h1>
-        <input type="text" id="search" onkeyup="searchMenu()" placeholder="Search menu items...">
+<!--         <input type="text" id="search" onkeyup="searchMenu()" placeholder="Search menu items..."> -->
+        <div class="search-container">
+            <input type="text" id="search" onkeyup="searchMenu()" placeholder="🔍 Search menu items..." autocomplete="off">
+            <div id="search-results" class="search-results hidden"></div>
         
     </header>
     
